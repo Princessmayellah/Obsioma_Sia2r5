@@ -17,11 +17,3 @@
         protected $primaryKey = 'userid';  // If your primary key is named differently
 
     }
-
-
-    /***
-     * 
-     * 
-     * 
-     * hakdog
-     */
