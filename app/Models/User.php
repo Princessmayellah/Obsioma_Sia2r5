@@ -3,6 +3,7 @@
 
     namespace App\Models;
 
+
     use Illuminate\Database\Eloquent\Model;
 
     class User extends Model{
@@ -14,6 +15,6 @@
         ];
 
         public $timestamps = false;
-        protected $primaryKey = 'userid';  // If your primary key is named differently
+        protected $primaryKey = 'id';  // If your primary key is named differently
 
     }
